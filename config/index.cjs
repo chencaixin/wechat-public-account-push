@@ -37,6 +37,7 @@ const USER_CONFIG = {
         },
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '01-01',
+         CIBA: true,
         },
       ],
       // 我们在一起已经有xxxx天了的配置
