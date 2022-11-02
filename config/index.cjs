@@ -19,7 +19,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '鑫哥',
+      name: 'xinge',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o7scX6PYQkaTB2r8_7mUulkguYiE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -29,10 +29,10 @@ const USER_CONFIG = {
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
-          type: '*生日', name: '鑫哥', year: '2001', date: '07-01',
+          type: '*生日', name: '鑫哥', year: '2023', date: '07-01',
         },
         {
-          type: '节日', name: '看小说纪念日', year: '2018', date: '09-03',
+          type: '节日', name: '看小说纪念日', year: '2022', date: '11-03',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
@@ -40,14 +40,14 @@ const USER_CONFIG = {
         // 在一起的日子
         { keyword: 'love_day', date: '2022-01-01' },
         // 结婚纪念日
-        { keyword: 'marry_day', date: '2022-09-09' },
+        { keyword: 'marry_day', date: '2022-11-09' },
       ],
     },
   ],
 
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
-  CALLBACK_TEMPLATE_ID: 'UZ7cppjN0XW2wJVNCBjOWSld-bNT2RlZtUkU3fbmqMc',
+  CALLBACK_TEMPLATE_ID: 'KWf4V3hIgBWR9SCV-Tn8RCFyM9J2TmnwgwIgeymWa9U',
 
   CALLBACK_USERS: [
     {
