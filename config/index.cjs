@@ -23,11 +23,31 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o7scX6PYQkaTB2r8_7mUulkguYiE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'CpRibT5ZFyh1jZQTlzBo5g4UVNcNuD8NZtK5eQYNM9U',
+      useTemplateId: 'rB_rMFTbAEAtuIwaRa5JrtOlhqUWc3JarocgCgKK7gA',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-19',
       horoscopeDateType: '今日',
        openUrl: 'https://wangxinleo.cn',
+      TIAN_API: {
+    // 天行API KEY，如果使用天行API则需要填写此项
+    key: '0543a4ebe7ed32ce67991cacc0a64a59',
+    
+    /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+    // 早安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    morningGreeting: true,
+  
+    // 晚安心语, 填 false 则不使用，按需关闭不使用的功能可以提高运行速度
+    eveningGreeting: true,
+  
+    // 天行天气（展示未来N天，最多7天）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    weather: 3,
+  
+    // 全网热搜榜（展示N条，最多30条）, 填 0 则不使用，按需关闭不使用的功能可以提高运行速度
+    networkHot: 3,
+  
+    // 全网热搜榜展示类型，默认展示概要信息: ['title': 仅展示标题, 'default': 展示概要信息]
+    networkHotType: 'default',
+  },
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
