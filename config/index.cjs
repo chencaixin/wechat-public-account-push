@@ -19,15 +19,16 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '大宝贝美丽依依崽',
+      name: '大宝贝漂亮依依崽',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o7scX6PYQkaTB2r8_7mUulkguYiE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'qWHJKDlKHZ7sj3ia0nR2oVn84tE5b2YeHIq8TjuII20',
+      useTemplateId: 'CpRibT5ZFyh1jZQTlzBo5g4UVNcNuD8NZtK5eQYNM9U',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-19',
       horoscopeDateType: '今日',
-       festivals: [
+       openUrl: 'https://wangxinleo.cn',
+      festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
           type: '*生日', name: '鑫鑫小宝', year: '2001', date: '07-01',
