@@ -23,7 +23,7 @@ const USER_CONFIG = {
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'o7scX6PYQkaTB2r8_7mUulkguYiE',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
-      useTemplateId: 'uktZB2JyhFbYXLtbK9xyNHsQgT1KUjxIU76h8h43hZ8',
+      useTemplateId: 'dlLO5d6zcT0vbCKKxNe2_PbNADFymvi4dN8ELTvUhqM',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '08-19',
       festivals: [
@@ -38,6 +38,9 @@ const USER_CONFIG = {
         {
           type: '节日', name: '相识纪念日', year: '2020', date: '01-01',
          CIBA: true,
+        },
+         {
+          type: '节日', name: '春节', year: '2023', date: '01-22',
         },
       ],
       // 我们在一起已经有xxxx天了的配置
